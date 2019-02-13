@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to right bottom, #ffffff 55%, #ff0000 45%) no-repeat;
+    background-size: cover;
+}
+
+.form-row label{
+    font-weight: bold;
+}
+
+#subButton{
+    border-color: #ff0000;
+}
+
+#contactForm{
+    padding-top: 2rem;
+}
+
+
+#pic img{
+    position: absolute;
+    left: 2rem;
+    height: 3rem;
+    padding-top: 1rem; 
+}
+
+@media only screen and(max-width: 640px){
+    #contactForm{
+        padding-top: 3rem;
+    }
+}
