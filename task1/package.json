@@ -1,0 +1,14 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "Johner task",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tobias Brenner",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.0"
+  }
+}
