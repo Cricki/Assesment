@@ -16,7 +16,7 @@
     <section class="container" id="contactForm" >
         <h1>Seminaranmeldung</h1>
             <!-- Seminarformular -->
-            <form id="seminarForm">
+            <form id="seminarForm" onsubmit="return checkFormValidity(this)">
                  <div class="form-row">
                       <div class="form-group col-md-12">
                         <label for="seminar">Seminar*</label>
