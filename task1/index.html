@@ -9,7 +9,73 @@
     <link rel="stylesheet" href="src/css/app.css">
 </head>
 <body>
-    
+    <!--Form Container-->
+    <section class="container" id="contactForm" >
+        <h1>Seminaranmeldung</h1>
+            <!-- Seminarformular -->
+            <form id="seminarForm">
+                 <div class="form-row">
+                      <div class="form-group col-md-12">
+                        <label for="seminar">Seminar*</label>
+                        <select id="seminar" class="form-control" required>
+                            <option>Medizinische Software (Kompaktseminar)</option>
+                            <option>Seminar / Workshop zur klinischen Bewertung</option>
+                            <option>MDR-Seminar</option> 
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">  
+                     <div class="form-group col-md-12">
+                        <label for="date">Seminar Datum*</label>
+                        <input type="date" class="form-control" id="date" required>
+                        <span class="glyphicon glyphicon-print"></span>
+                    </div>
+                </div> 
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputVorname">Vorname*</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputNachname">Nachname*</label>
+                        <input type="text" class="form-control" id="family" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputStrasse">Straße, Nr*</label>
+                        <input type="text" class="form-control" id="strasse" required>
+                    </div>
+                </div>    
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="inputPlz">PLZ*</label>
+                        <input type="text" class="form-control" id="plz" required>
+                    </div>
+                    <div class="form-group col-md-8">
+                        <label for="inputOrt">Ort*</label>
+                        <input type="text" class="form-control" id="ort" required>
+                    </div>   
+                </div>    
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputemail">Email*</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                </div>           
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputTel">Tel:*</label>
+                        <input type="tel" class="form-control" id="tel"required>
+                    </div>
+                </div>
+                <!--  Submit Button  -->
+                <button type="submit" class="btn btn-light"><b>Absenden</b></button>
+            </form>
+    </section>
+
     <script src="src/js/bootstrap.min.js"></script>
     <script src="src/js/app.js"></script>
 </body>
